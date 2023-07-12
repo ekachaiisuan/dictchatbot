@@ -4,7 +4,7 @@ var sheet_url = "";
 var sheet_name = "ชีต1";
 var line_endpoint = 'https://api.line.me/v2/bot/message/reply';
 var line_flexmessage = 'https://api.line.me/v2/bot/message/push';
-
+//test
 
 async function doPost(e) {
   var json = JSON.parse(e.postData.contents);
